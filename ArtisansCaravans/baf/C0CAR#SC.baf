@@ -433,12 +433,12 @@ IF
 THEN
     RESPONSE #100
         CutSceneId(Player1)
-        LeaveAreaLUA("%bg1_eet_symbol%4000","",[1111.204],S)
-        ActionOverride(Player2,LeaveAreaLUA("%bg1_eet_symbol%4000","",[1111.134],S))
-        ActionOverride(Player3,LeaveAreaLUA("%bg1_eet_symbol%4000","",[1111.64],S))
-        ActionOverride(Player4,LeaveAreaLUA("%bg1_eet_symbol%4000","",[1041.204],S))
-        ActionOverride(Player5,LeaveAreaLUA("%bg1_eet_symbol%4000","",[1041.134],S))
-        ActionOverride(Player6,LeaveAreaLUA("%bg1_eet_symbol%4000","",[1041.64],S))
+        LeaveAreaLUA("%bg1_eet_symbol%3900","",[1111.204],S)
+        ActionOverride(Player2,LeaveAreaLUA("%bg1_eet_symbol%3900","",[1111.134],S))
+        ActionOverride(Player3,LeaveAreaLUA("%bg1_eet_symbol%3900","",[1111.64],S))
+        ActionOverride(Player4,LeaveAreaLUA("%bg1_eet_symbol%3900","",[1041.204],S))
+        ActionOverride(Player5,LeaveAreaLUA("%bg1_eet_symbol%3900","",[1041.134],S))
+        ActionOverride(Player6,LeaveAreaLUA("%bg1_eet_symbol%3900","",[1041.64],S))
         Rest()
         ActionOverride(Player2,Rest())
         ActionOverride(Player3,Rest())
